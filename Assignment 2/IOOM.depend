@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1534689863 source:c:\users\bhumesh\desktop\ioom\main.cpp
+	<bits/stdc++.h>
+	"item.h"
+	"Stack.h"
+
+1534690238 source:c:\users\bhumesh\desktop\ioom\deletemiddle.cpp
+	"item.h"
+	"Stack.h"
+
+1534689432 c:\users\bhumesh\desktop\ioom\item.h
+	<bits/stdc++.h>
+
+1534689796 c:\users\bhumesh\desktop\ioom\stack.h
+	<bits/stdc++.h>
+
+1534690212 source:c:\users\bhumesh\desktop\ioom\display.cpp
+	"item.h"
+	"Stack.h"
+
+1534690339 source:c:\users\bhumesh\desktop\ioom\gettop.cpp
+	"item.h"
+	"Stack.h"
+
+1534690167 source:c:\users\bhumesh\desktop\ioom\isempty.cpp
+	"item.h"
+	"Stack.h"
+
+1534690092 source:c:\users\bhumesh\desktop\ioom\pop.cpp
+	"item.h"
+	"Stack.h"
+
+1534690050 source:c:\users\bhumesh\desktop\ioom\push.cpp
+	"item.h"
+	"Stack.h"
+
+1534690125 source:c:\users\bhumesh\desktop\ioom\stacksort.cpp
+	"item.h"
+	"Stack.h"
+
+1534690238 source:f:\ioom\deletemiddle.cpp
+	"item.h"
+	"Stack.h"
+
+1534689432 f:\ioom\item.h
+	<bits/stdc++.h>
+
+1534755713 f:\ioom\stack.h
+	<bits/stdc++.h>
+
+1534690212 source:f:\ioom\display.cpp
+	"item.h"
+	"Stack.h"
+
+1534690167 source:f:\ioom\isempty.cpp
+	"item.h"
+	"Stack.h"
+
+1534689863 source:f:\ioom\main.cpp
+	<bits/stdc++.h>
+	"item.h"
+	"Stack.h"
+
+1534755453 source:f:\ioom\stacksort.cpp
+	"item.h"
+	"Stack.h"
+
+1534753312 source:f:\ioom\gettop.cpp
+	"item.h"
+	"Stack.h"
+
+1534753546 source:f:\ioom\pop.cpp
+	"item.h"
+	"Stack.h"
+
+1534755529 source:f:\ioom\push.cpp
+	"item.h"
+	"Stack.h"
+

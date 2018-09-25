@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1533548486 source:c:\users\bhumesh\desktop\ioom\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"declarations.h"
+
+1533501050 c:\users\bhumesh\desktop\ioom\declarations.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1533545602 source:c:\users\bhumesh\desktop\ioom\deletemid.c
+	"declarations.h"
+
+1533501186 source:c:\users\bhumesh\desktop\ioom\initialize.c
+	"declarations.h"
+
+1533501477 source:c:\users\bhumesh\desktop\ioom\isstackempty.c
+	"declarations.h"
+
+1533501239 source:c:\users\bhumesh\desktop\ioom\makenode.c
+	"declarations.h"
+
+1533501128 source:c:\users\bhumesh\desktop\ioom\pop.c
+	"declarations.h"
+
+1533501309 source:c:\users\bhumesh\desktop\ioom\print.c
+	"declarations.h"
+
+1533501594 source:c:\users\bhumesh\desktop\ioom\push.c
+	"declarations.h"
+
+1533501376 source:c:\users\bhumesh\desktop\ioom\sort.c
+	"declarations.h"
+
+1533501533 source:c:\users\bhumesh\desktop\ioom\top.c
+	"declarations.h"
+
+1533545602 source:f:\bhumesh\ioom\deletemid.c
+	"declarations.h"
+
+1533501050 f:\bhumesh\ioom\declarations.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1533501186 source:f:\bhumesh\ioom\initialize.c
+	"declarations.h"
+
+1533501477 source:f:\bhumesh\ioom\isstackempty.c
+	"declarations.h"
+
+1533548670 source:f:\bhumesh\ioom\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"declarations.h"
+
+1533501239 source:f:\bhumesh\ioom\makenode.c
+	"declarations.h"
+
+1533501128 source:f:\bhumesh\ioom\pop.c
+	"declarations.h"
+
+1533501309 source:f:\bhumesh\ioom\print.c
+	"declarations.h"
+
+1533501594 source:f:\bhumesh\ioom\push.c
+	"declarations.h"
+
+1533501376 source:f:\bhumesh\ioom\sort.c
+	"declarations.h"
+
+1533501533 source:f:\bhumesh\ioom\top.c
+	"declarations.h"
+
