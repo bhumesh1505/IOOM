@@ -62,7 +62,6 @@ Teacher :: Teacher(int id,string n,string e , string p) : Person(n,e,p)
     head = NULL;
 }
 
-
 Teacher& Teacher :: operator = (const Teacher& obj)
 {
     node *ptr = obj.head;
@@ -89,7 +88,7 @@ Teacher :: ~Teacher()
     {
         ptr = head;
         head = head->next;
-        delete[] ptr;
+        delete ptr;
     }
     cout << "list deleted" << endl;
 }
@@ -118,11 +117,70 @@ void Teacher :: addSubject(string s)
 void Teacher :: printSubjects() const
 {
     node *ptr = head;
-    cout << "Subjects" << endl;
+
+    cout << "Subjects : " ;
     while(ptr != NULL)
     {
         cout << ptr->getSubject() << " ";
         ptr = ptr->next;
     }
-    cout << endl;
+}
+void Teacher :: printDetails() const
+{
+    cout << "\n___________________________________________" << endl;
+    Person::printDetails();
+    cout << "ID : " << T_id << endl;
+    (*this).printSubjects();
+    cout << "\n___________________________________________" << endl;
+}
+
+NonTeachingStaff :: NonTeachingStaff(int id , string jr , string n , string e , string p) : Person(n,e,p)
+{
+    T_id = id;
+    Job_Role = jr;
+}
+
+void NonTeachingStaff :: setId(int id)
+{
+    T_id = id;
+}
+
+int NonTeachingStaff :: getId() const
+{
+    return T_id;
+}
+
+string NonTeachingStaff :: getJobRole()const
+{
+    return Job_Role;
+}
+
+void NonTeachingStaff :: setJobRole(string jr)
+{
+    Job_Role = jr;
+}
+
+void NonTeachingStaff :: printDetails() const
+{
+    cout << "\n___________________________________________" << endl;
+    Person::printDetails();
+    cout << "ID : " << T_id << endl;
+    cout << "Job Role :" << Job_Role << endl;
+    cout << "\n___________________________________________" << endl;
+}
+
+
+Student :: Student(int rn , float cgpa , string n , string e , string p ) : Person(n,e,p)
+{
+    Roll_No = rn;
+    CGPA = cgpa;
+}
+
+void Student :: printDetails() const
+{
+    cout << "\n___________________________________________" << endl;
+    Person::printDetails();
+    cout << "Roll No : " << Roll_No << endl;
+    cout << "CGPA :" << CGPA << endl;
+    cout << "\n___________________________________________" << endl;
 }
