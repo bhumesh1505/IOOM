@@ -19,6 +19,7 @@ class String
         {
             strcpy(str,s);
         }
+
         void display() const
         {
             cout << str << endl;
