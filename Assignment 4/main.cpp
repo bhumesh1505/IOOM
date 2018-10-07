@@ -45,8 +45,14 @@ int main()
                         cout<<"enter n"<<endl;
                         cin>>n;
                         Pstring2 obj;
-                        obj.left(s,n);
+                        Pstring2 obj1(s);
+                        obj1.display();
+
+                        obj1 = obj.left(s,n);
+
+                        obj1.display();
                         obj.display();
+
                         break;
                         }
                 case 2:

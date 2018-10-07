@@ -7,7 +7,7 @@ using namespace std;
 class String
 {
     protected:
-        enum{SZ=10};
+        enum{SZ=5};
         char str[SZ];
     public:
         String()
