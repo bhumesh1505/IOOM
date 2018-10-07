@@ -10,6 +10,7 @@ class Shape{
             Shape(){}
             virtual double span() = 0;
             virtual double area() = 0;
+            virtual void print() = 0;
 };
 
 class Rectangle : public Shape{
