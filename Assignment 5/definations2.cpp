@@ -32,13 +32,21 @@ void Array<T> :: swap(int a, int b)
 template <class T>
 void Array<T> :: Sort()
 {
-    int i, j;
+    int i, j , isSort;
     for (j=1; j<=Size; ++j)
     {
-        for (i=0; i<=Size-2; ++i)
+        isSort = 1;
+        for (i=0; i<=Size-2 ; ++i)
         {
             if (PArray[i] > PArray[i+1])
+            {
                 swap(i, i+1);
+                isSort = 0;
+            }
+        }
+        if( isSort == 1 )
+        {
+            break;
         }
     }
     cout<<"Sorted array is: "<<endl;
@@ -53,7 +61,7 @@ Array<T> :: Array(int s)
     Size = s;
     PArray = new T[Size];
     for (int i = 0; i<Size; i++) {
-        cout << "Element " << i << ": ";
+        cout << "Enter Element " << i+1 << ": ";
         cin >> PArray[i];
     }
 }

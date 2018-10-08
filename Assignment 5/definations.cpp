@@ -7,7 +7,7 @@ Rectangle :: Rectangle(double l , double w):Shape()
 }
 double Rectangle :: span()
 {
-    return max(length,width);
+    return sqrt( length*length + width*width );
 }
 double Rectangle :: area()
 {
@@ -35,7 +35,7 @@ Ellipse :: Ellipse(double minor_a , double major_a):Shape()
 }
 double Ellipse :: span()
 {
-    return major_axis;
+    return 2*major_axis;
 }
 double Ellipse :: area()
 {
@@ -47,7 +47,7 @@ Square :: Square(double s) : Rectangle(s,s)
 }
 double Square :: span()
 {
-    return side;
+    return Rectangle::span();
 }
 double Square :: area()
 {
@@ -59,7 +59,7 @@ Circle :: Circle(double r):Ellipse(r,r)
 }
 double Circle :: span()
 {
-    return radius;
+    return Ellipse::span();
 }
 double Circle :: area()
 {
