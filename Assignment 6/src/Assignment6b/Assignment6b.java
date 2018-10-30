@@ -1,6 +1,11 @@
 package Assignment6b;
+import java.lang.reflect.Method; 
+import java.lang.reflect.Field; 
+import java.lang.reflect.Constructor; 
 
 import java.util.Scanner;
+
+//import com.sun.java.util.jar.pack.Package.Class.Method;
 public class Assignment6b {
 	public static void main(String []agrs)
 	{
@@ -15,13 +20,33 @@ public class Assignment6b {
 		double Salary = in.nextDouble();
 		*/
 		
-		String firstName = "Bhumesh";
-		String lastName = "Bhoyar";
-		String socialSecurityNumber = "20033";
-		double Salary = 500000;
 		
-		test_inheritance obj = new test_inheritance( firstName , lastName , socialSecurityNumber , Salary );
-		obj.getReflection();
+		
+		try {
+			
+			String firstName = "Aniket";
+			String lastName = "Mali";
+			String socialSecurityNumber = "20033";
+			double Salary = 500000;
+			test_inheritance obj = new test_inheritance( firstName , lastName , socialSecurityNumber , Salary );
+			
+			Class cls = obj.getClass().getSuperclass();			
+			System.out.println("Superclass = " + cls.getName());
+		
+			Constructor ctr = cls.getConstructor(String.class,String.class,String.class);
+			
+			System.out.println("The name of constructor is " + ctr.getName());
+		
+			Method[] methods = cls.getDeclaredMethods();
+			for (Method method:methods) 
+	            System.out.println(method.getName()); 	
+		
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+		//obj.getReflection();
 		
 	}
 }

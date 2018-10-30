@@ -16,17 +16,4 @@ public class test_inheritance extends Employee {
 	{
 		this.Salary = s;
 	}
-	public void getReflection()
-	{
-		Class cls = super.getClass();
-		System.out.println("The name of class is " + cls.getName()); 
-		
-		/*
-		Method[] methods = cls.getMethods(); 
-		  
-        for (Method method:methods) 
-            System.out.println(method.getName()); *//*
-		Constructor constructor = cls.getConstructor(); 
-        System.out.println("The name of constructor is " + constructor.getName());*/ 
-	}
 }
