@@ -9,25 +9,26 @@ import java.util.Scanner;
 public class Assignment6b {
 	public static void main(String []agrs)
 	{
-		/*Scanner in = new Scanner(System.in); 		
-		System.out.println("Enter first name ");
-		String firstName = in.nextLine();
-		System.out.println("Enter last name ");
-		String lastName = in.nextLine();
-		System.out.println("Enter social security number ");
-		String socialSecurityNumber = in.nextLine();
-		System.out.println("Enter Salary ");
-		double Salary = in.nextDouble();
+		/*
 		*/
 		
 		
 		
 		try {
 			
-			String firstName = "Aniket";
+			/*String firstName = "Aniket";
 			String lastName = "Mali";
 			String socialSecurityNumber = "20033";
-			double Salary = 500000;
+			double Salary = 500000;*/
+			Scanner in = new Scanner(System.in); 		
+			System.out.println("Enter first name ");
+			String firstName = in.nextLine();
+			System.out.println("Enter last name ");
+			String lastName = in.nextLine();
+			System.out.println("Enter social security number ");
+			String socialSecurityNumber = in.nextLine();
+			System.out.println("Enter Salary ");
+			double Salary = in.nextDouble();
 			test_inheritance obj = new test_inheritance( firstName , lastName , socialSecurityNumber , Salary );
 			
 			Class cls = obj.getClass().getSuperclass();			
