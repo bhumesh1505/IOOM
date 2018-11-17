@@ -19,7 +19,8 @@ public class Assignment {
 				 
 				 while ((length = ins.read(buffer)) > 0) {
 				    outs.write(buffer, 0, length);
-				 } 
+				 }
+				 
 				 ins.close();
 				 outs.close();
 				 System.out.println("File copied successfully!!");

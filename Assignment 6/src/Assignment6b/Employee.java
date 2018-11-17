@@ -1,6 +1,6 @@
 package Assignment6b;
 
-public /*abstract*/ class Employee {
+public abstract class Employee {
 	
 	private String firstName;
 	private String lastName;
@@ -36,7 +36,7 @@ public /*abstract*/ class Employee {
 	{
 		return socialSecurityNumber;
 	}
-	//public abstract double salary();
+	public abstract double salary() ;
 	
 	public void print()
 	{

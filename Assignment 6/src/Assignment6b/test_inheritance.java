@@ -8,10 +8,10 @@ public class test_inheritance extends Employee {
 		super(fn,ln,ssn);
 		setSalary(s);
 	}
-	/*public double salary()
+	public double salary()
 	{
 		return Salary;
-	}*/
+	}
 	public void setSalary(double s)
 	{
 		this.Salary = s;

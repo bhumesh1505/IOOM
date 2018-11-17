@@ -8,18 +8,8 @@ import java.util.Scanner;
 //import com.sun.java.util.jar.pack.Package.Class.Method;
 public class Assignment6b {
 	public static void main(String []agrs)
-	{
-		/*
-		*/
-		
-		
-		
-		try {
-			
-			/*String firstName = "Aniket";
-			String lastName = "Mali";
-			String socialSecurityNumber = "20033";
-			double Salary = 500000;*/
+	{	
+		try {	
 			Scanner in = new Scanner(System.in); 		
 			System.out.println("Enter first name ");
 			String firstName = in.nextLine();
